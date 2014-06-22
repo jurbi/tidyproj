@@ -1,0 +1,67 @@
+Codebook 
+1 Description
+------------- 
+The “tidy.txt” dataset is a summarized dataset that is created as part of a class project for the Data Cleaning course held on Coursera.org. The data was processed using R. 
+
+The source data that will be used is the Human Activity Recognition Using Smartphones Dataset that comes from the UCI Machine Learning Repository. It represents data built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. Each subject performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, measurements of 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.  
+
+A limited set of measurements were retained from the original data and a mean was calculated for each subject/activity combination in the data.  The file is tab delimited and all columns except for activity is numeric. 
+
+2 Data Description
+------------------  
+1. Subject					Numeric value unique to every person (subject) in the study 
+2. Activity					Label designating activity for each observation 
+								i.		WALKING 
+								ii.		WALKING_UPSTAIRS 
+								iii.	WALKING_DOWNSTAIRS 
+								iv.		SITTING 
+								v.		STANDING 
+								vi.		LAYING 
+3. tBodyAcc_mean_X			Obs average sensor measurement for subject/activity   
+4. tBodyAcc_mean_Y			Obs average sensor measurement for subject/activity  
+5. tBodyAcc_mean_Z			Obs average sensor measurement for subject/activity  
+6. tBodyAcc_std_X			Obs average sensor measurement for subject/activity  
+7. tBodyAcc_std_Y			Obs average sensor measurement for subject/activity  
+8. tBodyAcc_std_Z			Obs average sensor measurement for subject/activity  
+9. tGravityAcc_mean_X		Obs average sensor measurement for subject/activity 
+10. tGravityAcc_mean_Y		Obs average sensor measurement for subject/activity  
+11. tGravityAcc_mean_Z		Obs average sensor measurement for subject/activity 
+12. tGravityAcc_std_X		Obs average sensor measurement for subject/activity  
+13. tGravityAcc_std_Y		Obs average sensor measurement for subject/activity  
+14. tGravityAcc_std_Z		Obs average sensor measurement for subject/activity  
+15. tBodyAccJerk_mean_X		Obs average sensor measurement for subject/activity  
+16. tBodyAccJerk_mean_Y		Obs average sensor measurement for subject/activity  
+17. tBodyAccJerk_mean_Z		Obs average sensor measurement for subject/activity  
+18. tBodyAccJerk_std_X		Obs average sensor measurement for subject/activity 
+19. tBodyAccJerk_std_Y		Obs average sensor measurement for subject/activity 
+20. tBodyAccJerk_std_Z		Obs average sensor measurement for subject/activity 
+21. tBodyGyro_mean_X		Obs average sensor measurement for subject/activity 
+22. tBodyGyro_mean_Y		Obs average sensor measurement for subject/activity  
+23. tBodyGyro_mean_Z		Obs average sensor measurement for subject/activity 
+24. tBodyGyro_std_X			Obs average sensor measurement for subject/activity  
+25. tBodyGyro_std_Y			Obs average sensor measurement for subject/activity  
+26. tBodyGyro_std_Z			Obs average sensor measurement for subject/activity  
+27. tBodyGyroJerk_mean_X	Obs average sensor measurement for subject/activity  
+28. tBodyGyroJerk_mean_Y	Obs average sensor measurement for subject/activity  
+29. tBodyGyroJerk_mean_Z	Obs average sensor measurement for subject/activity  
+30. tBodyGyroJerk_std_X		Obs average sensor measurement for subject/activity  
+31. tBodyGyroJerk_std_Y		Obs average sensor measurement for subject/activity  
+32. tBodyGyroJerk_std_Z		Obs average sensor measurement for subject/activity  
+33. fBodyAcc_mean_X			Obs average sensor measurement for subject/activity  
+34. fBodyAcc_mean_Y			Obs average sensor measurement for subject/activity  
+35. fBodyAcc_mean_Z			Obs average sensor measurement for subject/activity  
+36. fBodyAcc_std_X			Obs average sensor measurement for subject/activity  
+37. fBodyAcc_std_Y			Obs average sensor measurement for subject/activity  
+38. fBodyAcc_std_Z			Obs average sensor measurement for subject/activity  
+39. fBodyAccJerk_mean_X		Obs average sensor measurement for subject/activity  
+40. fBodyAccJerk_mean_Y		Obs average sensor measurement for subject/activity  
+41. fBodyAccJerk_mean_Z		Obs average sensor measurement for subject/activity  
+42. fBodyAccJerk_std_X		Obs average sensor measurement for subject/activity 
+43. fBodyAccJerk_std_Y		Obs average sensor measurement for subject/activity 
+44. fBodyAccJerk_std_Z		Obs average sensor measurement for subject/activity 
+45. fBodyGyro_mean_X		Obs average sensor measurement for subject/activity  
+46. fBodyGyro_mean_Y		Obs average sensor measurement for subject/activity  
+47. fBodyGyro_mean_Z		Obs average sensor measurement for subject/activity 
+48. fBodyGyro_std_X			Obs average sensor measurement for subject/activity  
+49. fBodyGyro_std_Y			Obs average sensor measurement for subject/activity  
+50. fBodyGyro_std_Z			Obs average sensor measurement for subject/activity
