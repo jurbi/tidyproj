@@ -39,8 +39,8 @@ df <- merge(activity_lbl, df, by="a_id")
 
 ## create a list of the columns we want to keep. assignment was unclear whether meanFreq() and
 ## gravityMean should be included, but it doesn't seem to make sense for the data, so leaving
-## them out. to include them, you would just change to grep("[Mm]ean|_std[_\\s]")
-thelist <- c(grep("_mean[_\\s]|_std[_\\s]", names(df)))
+## them out. to include them, you would just change to grep("[Mm]ean|_std")
+thelist <- c(grep("_mean[^F]|_std", names(df)))
 
 ## create the a tidy data frame--this one is not for upload. wanted a more elegant way
 ## to order the first two fields, but 3:2 works and it's late....
